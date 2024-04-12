@@ -1,0 +1,32 @@
+.piano {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .piano-key {
+    width: 50px;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .white {
+    background-color: white;
+  }
+  
+  .black {
+    background-color: black;
+    color: white;
+    position: absolute;
+    width: 30px;
+    height: 120px;
+    z-index: 1;
+    margin-top: -120px;
+  }
+  
+  /* Add more styles as needed */
+  
